@@ -1,5 +1,5 @@
 # sqlite3_analyzer_toObject
-## sqlite3 Analyzer To Object Parser
+## Sqlite3 Analyzer To Object Parser
 
 Converts the output of [sqlite3_analyzer](https://www.sqlite.org/sqlanalyze.html) to an object.
 
