@@ -7,7 +7,7 @@ Converts the output of [sqlite3_analyzer](https://www.sqlite.org/sqlanalyze.html
 ```
 var obj = sqlite3_analyzer_Object(sqlite3_analyzer_output)
 ```
-### How to get sqlite3_analyzer output by code
+### How to get sqlite3_analyzer output by code example
 ```
 // Create process for exec command
 Process p = new Process();
