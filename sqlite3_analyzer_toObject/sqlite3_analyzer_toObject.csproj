@@ -1,8 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>darroyo</Authors>
+    <RepositoryUrl>https://github.com/darroyo/sqlite3_analyzer_toObject</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>sqlite;object;parser;</PackageTags>
+    <PackageLicenseFile>C:\Users\USER\Documents\Dani\Proyectos propios\sqlite3_analyzer_toObject\sqlite3_analyzer_toObject\LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Description>Converts the output of sqlite3_analyzer to an object.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
