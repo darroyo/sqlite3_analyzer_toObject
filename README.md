@@ -2,7 +2,7 @@
 ## Sqlite3 Analyzer To Object Parser
 
 Converts the output of [sqlite3_analyzer](https://www.sqlite.org/sqlanalyze.html) to an object.
-[Nuget package] (https://www.nuget.org/packages/sqlite3_analyzer_toObject)
+[Nuget package](https://www.nuget.org/packages/sqlite3_analyzer_toObject)
 
 ### How to use sqlite3_analyzer_toObject
 ```
