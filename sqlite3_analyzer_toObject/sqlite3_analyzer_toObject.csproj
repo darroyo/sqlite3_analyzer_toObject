@@ -8,10 +8,10 @@
     <RepositoryUrl>https://github.com/darroyo/sqlite3_analyzer_toObject</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>sqlite;object;parser;</PackageTags>
-    <PackageLicenseFile>C:\Users\USER\Documents\Dani\Proyectos propios\sqlite3_analyzer_toObject\sqlite3_analyzer_toObject\LICENSE.txt</PackageLicenseFile>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Description>Converts the output of sqlite3_analyzer to an object.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,11 +19,9 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="LICENSE.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
