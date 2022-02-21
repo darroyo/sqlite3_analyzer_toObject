@@ -5,7 +5,7 @@ Converts the output of [sqlite3_analyzer](https://www.sqlite.org/sqlanalyze.html
 
 ### How to use sqlite3_analyzer_toObject
 ```
-  var obj = sqlite3_analyzer_Object(sqlite3_analyzer_output)
+var obj = sqlite3_analyzer_Object(sqlite3_analyzer_output)
 ```
 ### How to get sqlite3_analyzer output by code
 ```
