@@ -20,21 +20,21 @@ p.StartInfo.RedirectStandardOutput = true;
 // Detect SO and set config
 if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
 {
-    p.StartInfo.FileName = "cmd.exe";
-    p.StartInfo.Arguments = "/C " + "_COMMAND_";
+	p.StartInfo.FileName = "cmd.exe";
+	p.StartInfo.Arguments = "/C " + "_COMMAND_";
 
-    command = 
-        _Config.General.Sqlite_analyzer_Folder + "\\" + "sqlite3_analyzer_windows.exe" + " " +
-        _Config.General.DataBaseConnection.Replace("Data Source=", "");
+	command = 
+		_Config.General.Sqlite_analyzer_Folder + "\\" + "sqlite3_analyzer_windows.exe" + " " +
+		_Config.General.DataBaseConnection;
 }
 else if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
 {
-    p.StartInfo.FileName = "/bin/bash";
-    p.StartInfo.Arguments = "-c \" " + "_COMMAND_" + " \"";
+	p.StartInfo.FileName = "/bin/bash";
+	p.StartInfo.Arguments = "-c \" " + "_COMMAND_" + " \"";
 
-    command = 
-        _Config.General.Sqlite_analyzer_Folder + "\\" + "sqlite3_analyzer" + " " +
-        _Config.General.DataBaseConnection.Replace("Data Source=", "");
+	command = 
+		_Config.General.Sqlite_analyzer_Folder + "\\" + "sqlite3_analyzer" + " " +
+		_Config.General.DataBaseConnection;
 }
 
 p.StartInfo.Arguments = p.StartInfo.Arguments.Replace("_COMMAND_", command);
