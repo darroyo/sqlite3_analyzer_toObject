@@ -45,5 +45,4 @@ p.Start();
 string output = p.StandardOutput.ReadToEnd();
 p.WaitForExit();
 ```
-
 **Feel free to modify and/or improve the code**
