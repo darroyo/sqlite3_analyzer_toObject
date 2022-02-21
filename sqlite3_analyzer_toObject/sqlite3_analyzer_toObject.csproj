@@ -7,7 +7,7 @@
     <Authors>darroyo</Authors>
     <RepositoryUrl>https://github.com/darroyo/sqlite3_analyzer_toObject</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>sqlite;object;parser;</PackageTags>
+    <PackageTags>sqlite3_analyzer;sqlite;object;parser;</PackageTags>
     <Description>Converts the output of sqlite3_analyzer to an object.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
